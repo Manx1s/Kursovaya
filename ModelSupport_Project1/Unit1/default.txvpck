@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="c1ag9vysyth_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.@unitclass.Form1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.@unitclass.T" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.@unitclass.Form1" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,0,172,235" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.MediaPlayer1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.OpenDialog1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Timer1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.TrackBar1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.CheckBox1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Panel1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.ComboBox1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Timer1Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.MediaPlayer1Click(System.TObject,Vcl.MPlayer.TMPBtnType,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.MediaPlayer1Notify(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.CheckBox1Click(System.TObject)" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.MediaPlayer1">
+        <property name="sourceAnchor" value="20,40" />
+        <property name="targetAnchor" value="-174,40" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.OpenDialog1">
+        <property name="sourceAnchor" value="20,140" />
+        <property name="targetAnchor" value="-181,140" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Timer1">
+        <property name="sourceAnchor" value="192,220" />
+        <property name="targetAnchor" value="339,400" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.TrackBar1">
+        <property name="sourceAnchor" value="192,167" />
+        <property name="targetAnchor" value="348,260" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Button1">
+        <property name="sourceAnchor" value="20,208" />
+        <property name="targetAnchor" value="-164,320" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.CheckBox1">
+        <property name="sourceAnchor" value="117,235" />
+        <property name="targetAnchor" value="117,380" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Panel1">
+        <property name="sourceAnchor" value="20,161" />
+        <property name="targetAnchor" value="-166,260" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.ComboBox1">
+        <property name="sourceAnchor" value="199,120" />
+        <property name="targetAnchor" value="240,120" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Fasad" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Fasad">
+        <property name="sourceAnchor" value="199,40" />
+        <property name="targetAnchor" value="580,40" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,620,166,81" />
+      <property name="hideAttribute" value="True" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FHasVideo" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DeviceID" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.ButtonWidth" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DoubleBuffered" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMLButtonDblClk(ref@Winapi.Messages.TWMMouse)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.CurrentButton" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetTrackLength(System.Integer)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DoNotify()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetLength()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FTo" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnMouseEnter" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FFrames" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Open()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FUseFrom" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DoPostClick(Vcl.MPlayer.TMPBtnType)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.PostClick(Vcl.MPlayer.TMPBtnType)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Notify" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Constraints" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetDeviceType(Vcl.MPlayer.TMPDeviceTypes)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Paint()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetFileName()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Down" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FNotifyValue" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Resume()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetNotify(System.Boolean)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.AutoRewind" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FUseNotify" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FCanPlay" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Buttons" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FShareable" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMSize(ref@Winapi.Messages.TWMSize)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FAutoOpen" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Notification(System.Classes.TComponent,System.Classes.TOperation)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.AutoButtonSet(Vcl.MPlayer.TMPBtnType)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Adjust()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Loaded()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Pressed" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Click(Vcl.MPlayer.TMPBtnType,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Stop()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FUseWait" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Tracks" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMMouseMove(ref@Winapi.Messages.TWMMouse)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.TrackPosition" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FCanEject" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetVisible(Vcl.MPlayer.TMediaPlayer.SetVisible.TButtonSet)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Error" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Frames" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMKillFocus(ref@Winapi.Messages.TWMKillFocus)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnPostClick" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FDeviceID" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DoClick(Vcl.MPlayer.TMPBtnType)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FAutoEnable" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DoMouseDown(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FCanStep" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetAutoEnable(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.MMNotify(ref@Winapi.Messages.TMessage)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Pause()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Mode" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.KeyDown(ref@System.Word,Vcl.MPlayer.TMediaPlayer.KeyDown.TShiftState)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.AutoOpen" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FDeviceType" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FileName" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FAutoButtons" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.VisibleButtonCount()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnNotify" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Position" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetTimeFormat()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Capabilities" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.VisibleButtons" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FWait" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Eject()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Rewind()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Next()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DestroyBitmaps()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FVisibleButtons" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnMouseLeave" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Back()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.TabOrder" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnContextPopup" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Close()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetTracks()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.ColoredButtons" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Destroy()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.NotifyValue" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.EndPos" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetTrackPosition(System.Integer)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetTo(System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.ParentShowHint" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FNotify" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.ErrorMessage" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FDWidth" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetErrorMessage()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetPosition(System.Integer)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FFlags" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FColoredButtons" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Step()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.TabStop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Anchors" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.StartRecording()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetDeviceID()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Updated()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DisplayRect" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Wait" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetDisplayRect(System.Types.TRect)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FOnNotify" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMGetDlgCode(ref@Winapi.Messages.TWMNoParams)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DrawAutoButtons()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Shareable" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.CheckIfOpen()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FOnClick" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetMode()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FCapabilities" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetEnabledButtons(Vcl.MPlayer.TMediaPlayer.SetEnabledButtons.TButtonSet)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetDeviceCaps()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMLButtonDown(ref@Winapi.Messages.TWMMouse)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.StartPos" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FFrom" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Play()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.CurrentRect" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.OnEnter" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DrawButton(Vcl.MPlayer.TMPBtnType,System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.TrackLength" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.ShowHint" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetPosition()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetDisplay(Vcl.Controls.TWinControl)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FocusedButton" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetStart()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FEnabledButtons" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetColored(Vcl.MPlayer.TMediaPlayer.TButtonSet)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.AutoEnable" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMSetFocus(ref@Winapi.Messages.TWMSetFocus)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.EnabledButtons" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Save()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FOnPostClick" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.LoadBitmaps()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FElementName" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Start" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.DeviceType" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetWait(System.Boolean)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FUseTo" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Length" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.WMLButtonUp(ref@Winapi.Messages.TWMMouse)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetTimeFormat(Vcl.MPlayer.TMPTimeFormats)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Visible" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FDisplay" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FAutoRewind" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetOrigDisplay()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FCanRecord" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.GetDisplayRect()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Display" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.TimeFormat" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.MCIOpened" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.MinBtnSize" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.SetFrom(System.Integer)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FError" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.PauseOnly()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.Previous()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.MPlayer.TMediaPlayer.FDHeight" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-340,100,159,81" />
+      <property name="hideAttribute" value="True" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FFilter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.OnIncludeItem" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.SetFileName(System.SysUtils.TFileName)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetHandle()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FInitialDir" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FileEditStyle" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.OnTypeChange" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FInternalWrapper" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DoFolderChange()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.InitialDir" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOnSelectionChange" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetFileName()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.SetInitialDir(System.string)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.OnCanClose" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.ReadFileEditStyle(System.Classes.TReader)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.SetHistoryList(System.Classes.TStrings)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FTitle" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.HistoryList" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DoTypeChange()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOnFolderChange" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FFileName" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Title" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FileName" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.OptionsEx" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Execute()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOptions" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetFiles()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FHistoryList" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DefaultExt" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FilterIndex" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.CanClose(ref@Winapi.CommDlg.tagOFNW)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Options" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Filter" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOptionsEx" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.WndProc(ref@Winapi.Messages.TMessage)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FCurrentFilterIndex" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetStaticRect()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DoExecute(System.Pointer)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FFilterIndex" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetFilterIndex()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DoIncludeItem(Vcl.Dialogs.TOFNotifyEx,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Destroy()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetFileNames(ref@Winapi.CommDlg.tagOFNW)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DefineProperties(System.Classes.TFiler)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FFiles" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOnTypeChange" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FDefaultExt" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.OnSelectionChange" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.Files" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.GetInitialDir()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DoCanClose()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.DoSelectionChange()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FFileEditStyle" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOnIncludeItem" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.OnFolderChange" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.Dialogs.TOpenDialog.FOnCanClose" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.ExtCtrls.TTimer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,400,146,81" />
+      <property name="hideAttribute" value="True" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.OnTimer" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.SetOnTimer(Vcl.ExtCtrls.TTimer.TNotifyEvent)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.UpdateTimer()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.Interval" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.FEnabled" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.FInterval" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.FOnTimer" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.SetEnabled(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.Destroy()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.FWindowHandle" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.WndProc(ref@Winapi.Messages.TMessage)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.SetInterval(System.Cardinal)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.Timer()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ExtCtrls.TTimer.SetOnTimer(Vcl.ExtCtrls.TTimer.SetOnTimer.TNotifyEvent)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,260,153,81" />
+      <property name="hideAttribute" value="True" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.ThumbLength" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetSliderVisible(System.Boolean)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FSelEnd" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.CreateParams(ref@Vcl.Controls.TCreateParams)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FPositionToolTip" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetOrientation(Vcl.ComCtrls.TTrackBarOrientation)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.ShowHint" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Destroy@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.ShowSelRange" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetTickMarks(Vcl.ComCtrls.TTickMark)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.TabStop" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetSelStart(System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.ParentCtl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.TickStyle" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SliderVisible" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.CNVScroll(ref@Winapi.Messages.TWMScroll)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetSelEnd(System.Integer)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetMax(System.Integer)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FFrequency" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetShowSelRange(System.Boolean)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnDragOver" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetParams(System.Integer,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Ctl3D" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.CNHScroll(ref@Winapi.Messages.TWMScroll)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetMin(System.Integer)" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FShowSelRange" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FSelStart" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnChange" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.BorderWidth" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.CNNotify(ref@Winapi.CommCtrl.TWMNotifyTRB)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnKeyUp" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FOnChange" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Position" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FOrientation" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FPageSize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Touch" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetThumbLength(System.Integer)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetFrequency(System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Enabled" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FPosition" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetPositionToolTip(Vcl.ComCtrls.TPositionToolTip)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetPageSize(System.Integer)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetTick(System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Orientation" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.DragKind" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FTickStyle" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetTickStyle(Vcl.ComCtrls.TTickStyle)" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetPosition(System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.PositionToolTip" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.UpdateSelection()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Anchors" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.CMGestureManagerChanged(ref@Winapi.Messages.TMessage)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.PageSize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Max" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FThumbLength" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Create@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.TickMarks" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.DestroyWnd()" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SetLineSize(System.Integer)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnGesture" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnKeyDown" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FMax" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SelStart" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Frequency" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.TabOrder" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FTickMarks" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.OnKeyPress" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FLineSize" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.GetThumbLength()" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FSliderVisible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.DoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.LineSize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.DragCursor" />
+      <reference referencedUin="delphi:e_field:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.FMin" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.CreateWnd()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Min" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.WMEraseBkGnd(ref@Winapi.Messages.TWMEraseBkgnd)" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.SelEnd" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.ComCtrls.TTrackBar.Changed()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.StdCtrls.TButton">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-300,320,138,81" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ElevationRequired" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Caption" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentBiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.SelectedImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.BiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.TabStop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseActivate" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Default" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.StylusHotImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ImageAlignment" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnDragOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Images" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.HotImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Anchors" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.PressedImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.CommandLinkHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DragKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Style" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnKeyUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnDropDownClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DisabledImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.WordWrap" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TButton.Create@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Font" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnKeyPress" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Action" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DropDownMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentFont" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DragCursor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.TabOrder" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ImageMargins" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseMove" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ModalResult" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseLeave" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TButton.Destroy@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnKeyDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Cancel" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="40,380,155,81" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Caption" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ParentBiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.BiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.TabStop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnKeyDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnMouseEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Ctl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnDragOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnMouseMove" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Anchors" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnMouseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.DragKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.WordWrap" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.AllowGrayed" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Create@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.DoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Font" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnMouseDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.State" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Action" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ParentFont" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ParentColor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnKeyUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.ParentCtl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Alignment" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnMouseActivate" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.TabOrder" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnKeyPress" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Color" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.OnMouseLeave" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Destroy@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.Checked" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TCheckBox.DragCursor" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.ExtCtrls.TPanel">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-300,220,134,81" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BevelEdges" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BorderStyle" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnMouseLeave" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.VerticalAlignment" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnUnDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ShowCaption" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnCanResize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Caption" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentBiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BevelWidth" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnMouseActivate" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BevelOuter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnMouseEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Ctl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnGetSiteInfo" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Touch" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.FullRepaint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnDockOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnAlignPosition" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnMouseMove" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Anchors" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnMouseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.DragKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BevelInner" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnAlignInsertBefore" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnGesture" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.DockManager" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.DoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Font" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnDockDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Padding" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentFont" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.AutoSize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.TabStop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.UseDockManager" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentBackground" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentColor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnMouseDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.DockSite" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.ParentCtl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Alignment" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnResize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BorderWidth" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Locked" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnDragOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.TabOrder" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.Color" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.BevelKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnDblClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.OnConstrainedResize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.ExtCtrls.TPanel.DragCursor" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.StdCtrls.TLabel">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="780,580,133,98" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Caption" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.ParentBiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.BiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.EllipsisPosition" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnMouseEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Touch" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnDragOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.GlowSize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnMouseMove" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Anchors" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.ShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnMouseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.DragKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.ShowAccelChar" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.DragCursor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnGesture" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.FocusControl" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Layout" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Font" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnMouseDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.AutoSize" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.ParentFont" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.WordWrap" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.ParentColor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Alignment" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnMouseActivate" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Color" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnMouseLeave" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.OnDblClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Transparent" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TLabel.Create()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.StdCtrls.TComboBox">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="540,640,159,81" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.BevelEdges" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Ctl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnDrawItem" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.MaxLength" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Destroy@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.TextHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Items" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnChange" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.AutoCompleteDelay" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ItemIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.BiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.DropDownCount" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.BevelOuter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.CharCase" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ImeMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnMouseEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnDropDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnSelect" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.AutoCloseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Touch" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnDragOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnMeasureItem" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Anchors" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.AutoDropDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.DragKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Style" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnKeyUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ParentBiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Sorted" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.BevelInner" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Create@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnGesture" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ImeName" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.DoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Font" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnKeyPress" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.TabStop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Text" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ParentFont" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ParentColor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.AutoComplete" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ParentCtl3D" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnKeyDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnMouseLeave" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.TabOrder" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnCloseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Color" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.BevelKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.ItemHeight" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.OnDblClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.DragCursor" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TComboBox.Create()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:UFasad.IFasad">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="580,0,199,111" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.IFasad.getLabel1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.IFasad.getComboBox1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.IFasad.getMediaPlayer1()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:UFasad.TFasad">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="569,158,199,370" />
+      <reference referencedUin="delphi:e_field:src:Project1:UFasad.TFasad.Label1" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.createLabel1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.Create()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.getLabel1()" />
+      <reference referencedUin="delphi:l_impl:src:Project1:UFasad.TFasad:UFasad.IFasad">
+        <property name="sourceAnchor" value="640,158" />
+        <property name="targetAnchor" value="640,111" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:UFasad.TFasad.Label1">
+        <property name="sourceAnchor" value="768,503" />
+        <property name="targetAnchor" value="815,580" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:UFasad.TFasad.Timer1" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.createTimer1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.Timer1Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.getTimer1()" />
+      <reference referencedUin="delphi:l_ast:src:Project1:UFasad.TFasad.Timer1">
+        <property name="sourceAnchor" value="569,440" />
+        <property name="targetAnchor" value="446,440" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:UFasad.TFasad.TrackBar1" />
+      <reference referencedUin="delphi:l_ast:src:Project1:UFasad.TFasad.TrackBar1">
+        <property name="sourceAnchor" value="569,300" />
+        <property name="targetAnchor" value="493,300" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:UFasad.TFasad.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:Project1:UFasad.TFasad.MediaPlayer1" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.createComboBox1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.ComboBox1Change(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.getComboBox1()" />
+      <reference referencedUin="delphi:l_ast:src:Project1:UFasad.TFasad.ComboBox1">
+        <property name="sourceAnchor" value="634,528" />
+        <property name="targetAnchor" value="634,640" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:UFasad.TFasad.MediaPlayer1">
+        <property name="sourceAnchor" value="569,453" />
+        <property name="targetAnchor" value="418,620" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:UFasad.TFasad.Form1" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.createMediaPlayer1()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.MediaPlayer1Click(System.TObject,Vcl.MPlayer.TMPBtnType,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.MediaPlayer1Notify(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.Create(Vcl.Forms.TApplication)" />
+      <reference referencedUin="delphi:e_method:src:Project1:UFasad.TFasad.getMediaPlayer1()" />
+      <reference referencedUin="delphi:l_ast:src:Project1:UFasad.TFasad.Form1">
+        <property name="sourceAnchor" value="569,196" />
+        <property name="targetAnchor" value="192,196" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>
